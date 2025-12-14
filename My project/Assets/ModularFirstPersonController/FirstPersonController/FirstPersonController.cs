@@ -4,6 +4,7 @@
 //
 // "Enable/Disable Headbob, Changed look rotations - should result in reduced camera jitters" || version 1.0.1
 
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -445,7 +446,7 @@ public class FirstPersonController : MonoBehaviour
     // Sets isGrounded based on a raycast sent straigth down from the player object
     private void CheckGround()
     {
-        Vector3 origin = new Vector3(transform.position.x, transform.position.y - (transform.localScale.y * .5f), transform.position.z);
+        Vector3 origin = new Vector3(transform.position.x, transform.position.y - (transform.localScale.y), transform.position.z);
         Vector3 direction = transform.TransformDirection(Vector3.down);
         float distance = .75f;
 
