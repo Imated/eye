@@ -19,6 +19,22 @@ MonoBehaviour:
   cropToFit:
     m_OverrideState: 1
     m_Value: 1
+--- !u!114 &-1186575416888832507
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81180773991d8724ab7f2d216912b564, type: 3}
+  m_Name: ChromaticAberration
+  m_EditorClassIdentifier: 
+  active: 1
+  intensity:
+    m_OverrideState: 1
+    m_Value: 1
 --- !u!114 &-176442118273626942
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -37,7 +53,7 @@ MonoBehaviour:
     m_Value: {x: 1, y: 1, z: 1, w: 0}
   gamma:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.91657037, z: 0.887707, w: 0.1967492}
+    m_Value: {x: 1, y: 0.91657037, z: 0.887707, w: -0.12099135}
   gain:
     m_OverrideState: 1
     m_Value: {x: 1, y: 0.9336806, z: 0.87812704, w: -0.04277159}
@@ -63,6 +79,7 @@ MonoBehaviour:
   - {fileID: 1988028814578867708}
   - {fileID: 5621094581388169515}
   - {fileID: -176442118273626942}
+  - {fileID: -1186575416888832507}
 --- !u!114 &802068540925866305
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -127,7 +144,7 @@ MonoBehaviour:
     m_Value: {x: 1, y: 1}
   samples:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 2
   sampleDimmer:
     m_OverrideState: 1
     m_Value: 0.5
@@ -142,7 +159,7 @@ MonoBehaviour:
     m_Value: 1.5
   streaksIntensity:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   streaksLength:
     m_OverrideState: 1
     m_Value: 0.5
