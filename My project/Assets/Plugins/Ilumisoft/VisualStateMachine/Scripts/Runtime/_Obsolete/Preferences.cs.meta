@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bc45ecc61c61ffe4280b05fb0d362c44
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 157252
+  packageName: Visual State Machine
+  packageVersion: 1.48
+  assetPath: Assets/Plugins/Ilumisoft/VisualStateMachine/Scripts/Runtime/_Obsolete/Preferences.cs
+  uploadId: 650435
