@@ -2740,39 +2740,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7910327520384260210, guid: 5805b7d7dfa688943847fd7087d3e583, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -37.8
+      value: -37.2
       objectReference: {fileID: 0}
     - target: {fileID: 7910327520384260210, guid: 5805b7d7dfa688943847fd7087d3e583, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -144.50279
+      value: -146.3
       objectReference: {fileID: 0}
     - target: {fileID: 7910327520384260210, guid: 5805b7d7dfa688943847fd7087d3e583, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9993828
+      value: 0.9982715
       objectReference: {fileID: 0}
     - target: {fileID: 7910327520384260210, guid: 5805b7d7dfa688943847fd7087d3e583, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.047116213
       objectReference: {fileID: 0}
     - target: {fileID: 7910327520384260210, guid: 5805b7d7dfa688943847fd7087d3e583, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.0016561996
       objectReference: {fileID: 0}
     - target: {fileID: 7910327520384260210, guid: 5805b7d7dfa688943847fd7087d3e583, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.035129674
+      value: -0.035090607
       objectReference: {fileID: 0}
     - target: {fileID: 7910327520384260210, guid: 5805b7d7dfa688943847fd7087d3e583, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 5.391
       objectReference: {fileID: 0}
     - target: {fileID: 7910327520384260210, guid: 5805b7d7dfa688943847fd7087d3e583, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -0.381
       objectReference: {fileID: 0}
     - target: {fileID: 7910327520384260210, guid: 5805b7d7dfa688943847fd7087d3e583, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -4.026
+      value: -4.044
       objectReference: {fileID: 0}
     - target: {fileID: 7910327520384260210, guid: 5805b7d7dfa688943847fd7087d3e583, type: 3}
       propertyPath: m_ConstrainProportionsScale
