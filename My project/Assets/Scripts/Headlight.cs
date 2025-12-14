@@ -30,6 +30,11 @@ public class Headlight : MonoBehaviour
             _energy -= Time.deltaTime * energyDrain;
         }
 
+        if (_energy <= 0f)
+        {
+            light.SetActive(false);
+        }
+
         energyBar.fillAmount = _energy / maxEnergy;
     }
 }
